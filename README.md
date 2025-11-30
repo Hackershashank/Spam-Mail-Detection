@@ -35,7 +35,7 @@ It covers preprocessing, feature engineering, model training, evaluation, and co
 
 Dataset used: **Spam Mail Dataset from Kaggle**
 
-🔗 Source: _(Add link here if needed)_
+🔗 Source: https://www.kaggle.com/datasets/venky73/spam-mails-dataset
 
 ---
 
