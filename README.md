@@ -22,20 +22,12 @@ It covers preprocessing, feature engineering, model training, evaluation, and co
 
 ## 🧠 Model Workflow
 
-📥 Load dataset
-⬇️
-🧹 Text pre-processing (stemming + stopwords removal)
-⬇️
-🧮 Convert text to TF-IDF numerical features
-⬇️
-🤖 Train and compare ML models
-⬇️
-📈 Evaluate metrics & accuracy
-⬇️
-🏆 Save and deploy best-performing model
-
-yaml
-Copy code
+1. 📥 Load dataset  
+2. 🧹 Text pre-processing (stemming + stopwords removal)  
+3. 🧮 Convert text to TF-IDF numerical features  
+4. 🤖 Train and compare ML models  
+5. 📈 Evaluate metrics & accuracy  
+6. 🏆 Save and deploy best-performing model
 
 ---
 
@@ -51,7 +43,7 @@ After evaluating all models, the best-performing classifier achieved:
 
 Dataset used: **Spam Mail Dataset** from Kaggle.
 
-🔗 *(Insert dataset link if required)*
+🔗 *https://www.kaggle.com/datasets/venky73/spam-mails-dataset*
 
 ---
 
@@ -101,9 +93,6 @@ model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 ```
 
-# Example email text
-sample = ["Congratulations! You have won a FREE iPhone! Click now to claim."]
-
 # Transform and predict
 ```bash
 vectorized = vectorizer.transform(sample)
@@ -112,7 +101,7 @@ print("Prediction:", "SPAM" if prediction == 1 else "HAM")
 ```
 
 📄 License
-This project is licensed under the MIT License.
+-This project is licensed under the MIT License.
 
 🙌 Acknowledgments
 Dataset source: Kaggle
